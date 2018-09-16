@@ -104,6 +104,7 @@ for k = 1:1:NumFrames
     Movie2(k) = Movie(m);
 end
 % Preparando arquivo que armazena o vídeo:
+% grava no workspace do matlab
 video = VideoWriter('pointcharge','MPEG-4');
 open(video);
 % Grava frame no arquivo de vídeo
